@@ -7,11 +7,16 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "telegraf": "^3.35.0"
   }
 }
